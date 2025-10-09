@@ -1,0 +1,167 @@
+[
+{
+    "id": 1,
+    "titulo": "Hola, Mundo",
+    "descripcion": "Tu primer programa en Python. Aprende a mostrar mensajes en pantalla usando print().",
+    "codigo_ejemplo": "print(\"Hola, mundo!\")",
+    "reto": "Escribe un programa que muestre tu nombre y tu edad, cada uno en una línea distinta.",
+    "input": "",
+    "output": "Juan\n21",
+    "nivel": "Fácil",
+    "tema": "Fundamentos"
+},
+{
+    "id": 2,
+    "titulo": "Variables y tipos de datos",
+    "descripcion": "Aprende a crear variables y usar distintos tipos: enteros, flotantes, cadenas y booleanos.",
+    "codigo_ejemplo": "nombre = \"Lucía\"\nedad = 22\naltura = 1.65\nes_estudiante = True\nprint(nombre, edad, altura, es_estudiante)",
+    "reto": "Declara tres variables: curso, duracion, activo, y muestra un mensaje con ellas.",
+    "input": "",
+    "output": "Estoy cursando Desarrollo FullStack durante 4 meses. Activo: True",
+    "nivel": "Fácil",
+    "tema": "Fundamentos"
+},
+{
+    "id": 3,
+    "titulo": "Operadores básicos",
+    "descripcion": "Python usa operadores aritméticos (+, -, *, /, //, %, **). También operadores de comparación y lógicos.",
+    "codigo_ejemplo": "a = 5\nb = 2\nprint(a + b, a - b, a * b, a / b)",
+    "reto": "Crea un programa que calcule el área de un triángulo de base y altura dadas.",
+    "input": "base=10\naltura=5",
+    "output": "El área es: 25.0",
+    "nivel": "Fácil",
+    "tema": "Fundamentos"
+},
+{
+    "id": 4,
+    "titulo": "Entrada del usuario",
+    "descripcion": "Pide datos al usuario con input(). Convierte tipos con int() o float() según sea necesario.",
+    "codigo_ejemplo": "nombre = input(\"¿Cómo te llamas? \")\nprint(\"Hola,\", nombre)",
+    "reto": "Pide al usuario su año de nacimiento y calcula su edad actual.",
+    "input": "anio_nacimiento=2000",
+    "output": "Tu edad es: 23",
+    "nivel": "Fácil",
+    "tema": "Fundamentos"
+},
+{
+    "id": 5,
+    "titulo": "Condicionales",
+    "descripcion": "Aprende a usar if, elif y else para tomar decisiones en tu código.",
+    "codigo_ejemplo": "numero = int(input(\"Ingresa un número: \"))\nif numero > 0:\n    print(\"Positivo\")\nelif numero == 0:\n    print(\"Cero\")\nelse:\n    print(\"Negativo\")",
+    "reto": "Escribe un programa que indique si una persona es mayor o menor de edad.",
+    "input": "edad=18",
+    "output": "Mayor de edad",
+    "nivel": "Fácil",
+    "tema": "Fundamentos"
+},
+{
+    "id": 6,
+    "titulo": "Listas",
+    "descripcion": "Las listas guardan varios elementos. Son mutables y puedes añadir, eliminar o modificar elementos.",
+    "codigo_ejemplo": "frutas = [\"manzana\", \"banana\", \"pera\"]\nfrutas.append(\"kiwi\")\nprint(frutas)",
+    "reto": "Crea una lista de tus 3 lenguajes de programación favoritos y añade uno nuevo al final.",
+    "input": "",
+    "output": "['Python', 'JavaScript', 'C++', 'Java']",
+    "nivel": "Fácil",
+    "tema": "Estructuras de datos"
+},
+{
+    "id": 7,
+    "titulo": "Diccionarios",
+    "descripcion": "Un diccionario guarda pares clave:valor y permite acceder rápidamente a sus elementos.",
+    "codigo_ejemplo": "persona = {\"nombre\": \"Carlos\", \"edad\": 30}\nprint(persona[\"nombre\"])",
+    "reto": "Crea un diccionario con tu nombre, carrera y ciudad. Muestra solo la ciudad.",
+    "input": "",
+    "output": "Madrid",
+    "nivel": "Fácil",
+    "tema": "Estructuras de datos"
+},
+{
+    "id": 8,
+    "titulo": "Bucles for",
+    "descripcion": "Permiten recorrer listas, cadenas y rangos de números.",
+    "codigo_ejemplo": "for i in range(5):\n    print(\"Iteración\", i)",
+    "reto": "Muestra todos los números del 1 al 10 en pantalla.",
+    "input": "",
+    "output": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10",
+    "nivel": "Fácil",
+    "tema": "Estructuras de datos"
+},
+{
+    "id": 9,
+    "titulo": "Bucles while",
+    "descripcion": "Ejecutan un bloque mientras una condición sea verdadera.",
+    "codigo_ejemplo": "contador = 0\nwhile contador < 3:\n    print(\"Contador:\", contador)\n    contador += 1",
+    "reto": "Pide al usuario un número hasta que ingrese uno mayor que 10.",
+    "input": "numero=8",
+    "output": "Número inválido\nNúmero inválido\nNúmero válido",
+    "nivel": "Medio",
+    "tema": "Estructuras de datos"
+},
+{
+    "id": 10,
+    "titulo": "Funciones",
+    "descripcion": "Agrupa instrucciones bajo un nombre reutilizable. Aprende a definir parámetros y retornar valores.",
+    "codigo_ejemplo": "def saludar(nombre):\n    return f\"Hola, {nombre}\"\n\nprint(saludar(\"Ana\"))",
+    "reto": "Crea una función cuadrado(n) que devuelva el cuadrado de un número.",
+    "input": "n=5",
+    "output": "25",
+    "nivel": "Medio",
+    "tema": "Funciones"
+},
+{
+    "id": 11,
+    "titulo": "Proyecto 1: Calculadora simple",
+    "descripcion": "Combina todo lo aprendido para hacer una calculadora básica.",
+    "codigo_ejemplo": "a = float(input(\"Número 1: \"))\nb = float(input(\"Número 2: \"))\nprint(\"Suma:\", a + b)",
+    "reto": "Agrega opciones para resta, multiplicación y división usando if.",
+    "input": "a=10\nb=5\noperacion='multiplicacion'",
+    "output": "Resultado: 50",
+    "nivel": "Medio",
+    "tema": "Proyectos"
+},
+{
+    "id": 12,
+    "titulo": "Proyecto 2: Adivina el número",
+    "descripcion": "Usa el módulo random para crear un mini juego de adivinanza.",
+    "codigo_ejemplo": "import random\nnumero = random.randint(1, 10)\nprint(\"He pensado un número entre 1 y 10.\")",
+    "reto": "Completa el juego: el usuario debe adivinar el número, mostrando 'Demasiado alto' o 'Demasiado bajo'.",
+    "input": "usuario=7\nnumero=5",
+    "output": "Demasiado alto",
+    "nivel": "Medio",
+    "tema": "Proyectos"
+},
+{
+    "id": 13,
+    "titulo": "Proyecto 3: Gestor de tareas",
+    "descripcion": "Simula una pequeña app con listas y bucles para añadir y listar tareas.",
+    "codigo_ejemplo": "tareas = []",
+    "reto": "Crea un menú que permita añadir y listar tareas hasta que el usuario elija salir.",
+    "input": "tarea='Estudiar Python'",
+    "output": "Lista de tareas: Estudiar Python",
+    "nivel": "Medio",
+    "tema": "Proyectos"
+},
+{
+    "id": 14,
+    "titulo": "Manejo de errores",
+    "descripcion": "Aprende a capturar errores con try, except y finally.",
+    "codigo_ejemplo": "try:\n    n = int(input(\"Ingresa un número: \"))\nexcept ValueError:\n    print(\"No es un número\")",
+    "reto": "Escribe un programa que capture ValueError si el usuario introduce texto en vez de número.",
+    "input": "entrada='abc'",
+    "output": "No es un número",
+    "nivel": "Medio",
+    "tema": "Fundamentos"
+},
+{
+    "id": 15,
+    "titulo": "Módulos y librerías",
+    "descripcion": "Aprende a usar módulos y librerías como math y datetime.",
+    "codigo_ejemplo": "import math\nprint(math.sqrt(16))",
+    "reto": "Usa el módulo math para calcular la raíz cuadrada de un número ingresado por el usuario.",
+    "input": "n=25",
+    "output": "5.0",
+    "nivel": "Medio",
+    "tema": "Fundamentos"
+}
+]
