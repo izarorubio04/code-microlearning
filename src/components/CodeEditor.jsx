@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import CodeMirror from "@uiw/react-codemirror";
 import { python } from "@codemirror/lang-python";
+import "../styles/codeEditor.css";
 
 export default function CodeEditor({ lesson }) {
   const [code, setCode] = useState("");

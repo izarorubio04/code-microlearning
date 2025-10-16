@@ -1,0 +1,11 @@
+.container h1 {
+  margin-bottom: 2rem;
+}
+
+.card h2 {
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  margin: 0.3rem 0;
+}
