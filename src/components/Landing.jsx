@@ -1,21 +1,20 @@
+// src/components/Landing.jsx
 import React from "react";
 import "../styles.css";
 
-export default function Landing({ onStart }) {
+export default function Landing({ onStart, onAuth }) {
   return (
     <div>
-      {/* 1️ Sección principal (título + botones) */}
       <section className="hero">
         <div className="hero-content">
           <h1>PyCodemy</h1>
           <div className="hero-buttons">
-            <button className="btn-secondary">Iniciar sesión</button>
-            <button className="btn-outline">Registrarse</button>
+            <button className="btn-secondary" onClick={() => onAuth?.()}>Iniciar sesión</button>
+            <button className="btn-outline" onClick={() => onAuth?.()}>Registrarse</button>
           </div>
         </div>
       </section>
 
-      {/* 2️ Sección de descripción */}
       <section className="info">
         <p className="info-text">
           Microlecciones y desafíos diarios para mejorar tus habilidades de código en minutos.
@@ -25,12 +24,10 @@ export default function Landing({ onStart }) {
         </button>
       </section>
 
-      {/* 3️ Sección vacía */}
       <section className="empty-section">
         <p>Próximamente más contenido...</p>
       </section>
 
-      {/* 4️ Footer */}
       <footer className="footer">
         <p>© 2025 Code Microlearning | Desarrollado por Izaro Rubio Uribe</p>
       </footer>
